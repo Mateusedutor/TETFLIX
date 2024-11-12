@@ -1,0 +1,52 @@
+body {
+  color: rgb(239, 214, 140);
+  background: black;
+  margin: 0px;
+  font-family: "Creepster", system-ui;
+
+
+}
+
+header {
+  border-bottom: solid 3px rgb(49, 9, 9);
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(255, 0, 0);
+  font-family: "Creepster", system-ui;
+}
+
+section {
+  background: rgb(12, 9, 1);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  font-family: "Creepster", system-ui;
+}
+
+chamada-texto {
+  margin-right: 5%;
+}
+
+
+h1 {
+  font-size: 40px;
+}
+img{
+height:200px;
+
+}
+
+.mais-filmes {
+gap:10px;
+display:flex;
+overflow-x:auto;
+margin-bottom:100px
+}
+.mais-filmes img { 
+  opacity:0,1;
+}
+.mais-filmes img:hover{
+   opacity:1,0;
+  border:2px solid rgb(58, 23, 23)
+}
